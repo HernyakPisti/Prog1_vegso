@@ -48,7 +48,7 @@
             Megoldás videó: <link xlink:href="https://youtu.be/S_jBmmQixQs">https://youtu.be/S_jBmmQixQs</link>
         </para>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky</link>
+            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky">https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky</link>
         </para>
 	<para>
 	BNF-ben definiálva a C utasítás fogalma
@@ -94,7 +94,7 @@ A kód fordításához használjuk elsőnek a "gcc version.c -o version -std=c99
             Megoldás videó: <link xlink:href="https://youtu.be/S_jBmmQixQs">https://youtu.be/S_jBmmQixQs</link>
         </para>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky</link>
+            Megoldás forrása:   <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky">https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky</link>
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... </para>
@@ -135,7 +135,7 @@ Most hogy tudjuk mi az a lexer fordítsuk és futtassuk. Elsőnek kell a .l forr
             Megoldás videó: <link xlink:href="https://youtu.be/S_jBmmQixQs">https://youtu.be/S_jBmmQixQs</link>
         </para>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky</link>
+            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky">https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky</link>
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat...
@@ -286,7 +286,7 @@ történik.</para>
             </listitem>
         </orderedlist>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky</link>
+            Megoldás forrása:   <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky">https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky</link>
         </para>
 
         <para>
@@ -411,7 +411,7 @@ $(\exists y \forall x (y<x) \supset \neg (x \text{ prím}))$
             Megoldás videó: <link xlink:href="https://youtu.be/S_jBmmQixQs">https://youtu.be/S_jBmmQixQs</link>
         </para>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/chomsky</link>
+            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky">https://github.com/HernyakPisti/Prog1_vegso/tree/master/chomsky</link>
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat...

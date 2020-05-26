@@ -17,7 +17,7 @@
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch</link>
+            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para>
         <para>
             Tanulságok, tapasztalatok, magyarázat... térj ki arra is, hogy a JDK forrásaiban a Sun programozói
@@ -122,7 +122,7 @@ A kód elején egy if szerepel ami annyit tesz hogy leellenőrzi hogy vannak-e m
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása:<link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch</link>    
+            Megoldás forrása:<link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para>
         <para> Tanulságok, tapasztalatok, magyarázat... </para>
        <para>A feladatban használt kód Bátfai Nortbert-től származik</para>
@@ -279,7 +279,7 @@ Ez a függvény végzi el a fa kirajzolását. Mivel csak akkor kell kiírni egy
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása:     <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch</link>
+            Megoldás forrása:     <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para><para> Tanulságok, tapasztalatok, magyarázat... </para>
         <para>
             A kód bemutásához egy kisebb bemeneti fáljt használunk hogy lássuk a fát egyben.
@@ -390,7 +390,7 @@ kiir (BINFA_PTR elem)
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása:       <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch</link>
+            Megoldás forrása:      <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para><para> Tanulságok, tapasztalatok, magyarázat... </para>
         <para>A feladat megoldásához használt kód Bátfai Norbert-től van.</para>
         <para>
@@ -539,7 +539,7 @@ main (int argc, char *argv[])
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/welch</link>
+            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para><para> Tanulságok, tapasztalatok, magyarázat... </para>
         <para>
             Ebben a feladatban lényegében csak egy karaktert kell beraknunk az előző forráskódba.
@@ -573,7 +573,7 @@ main (int argc, char *argv[])
             Megoldás videó: <link xlink:href="https://youtu.be/qe12vdwuYYk">https://youtu.be/qe12vdwuYYk</link>
         </para>
         <para>
-            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1/tree/master/bhax/thematic_tutorials/bhax_textbook/welch">https://github.com/HernyakPisti/Prog1/tree/master/bhax/thematic_tutorials/bhax_textbook/welch</link>
+            Megoldás forrása:  <link xlink:href="https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch">https://github.com/HernyakPisti/Prog1_vegso/tree/master/welch</link>
         </para><para> Tanulságok, tapasztalatok, magyarázat... </para>
         <para>
             Ebben a feladatban leszeretnénk másolni az eredeti fát, ehhez létrehozunk még egy binfát binFa2 néven, amivel az eredetit másoljuk le, ellenőrzés képp ki is írjuk az alábbi kód részlettel
