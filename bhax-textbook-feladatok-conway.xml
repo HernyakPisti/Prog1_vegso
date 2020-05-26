@@ -1,0 +1,113 @@
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0" xml:lang="hu">
+    <info>
+        <title>Helló, Conway!</title>
+        <keywordset>
+            <keyword/>
+        </keywordset>
+    </info>
+    <section>
+        <title>Hangyaszimulációk</title>
+        <para>
+            Írj Qt C++-ban egy hangyaszimulációs programot, a forrásaidról utólag reverse engineering jelleggel
+            készíts UML osztálydiagramot is!
+        </para>
+        <para>
+            Megoldás videó: <link xlink:href="https://bhaxor.blog.hu/2018/10/10/myrmecologist">https://bhaxor.blog.hu/2018/10/10/myrmecologist</link>
+        </para>
+        <para>
+        	Saját megoldás videó: <link xlink:href="https://youtu.be/3IYz37ZcUak">https://youtu.be/3IYz37ZcUak</link>
+        </para>
+        <para>
+            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/conway">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/conway</link>               
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>            
+        <para>
+        	Az feladat megoldásában Bátfai Norbert kódja szerepel.
+        </para>
+        <para>
+        	A feladhoz megint a Qt külső alkalmazást hívjuk segítségül mint a Mandelbrot-halmaznál is. Itt is átadjuk a qmake-nek a szükséges forrásokat amikből generál nekünk egy Makefile-t ami után már futtathatjuk a kódot.
+        </para>
+        <para>
+        	A feladatban egy hangyaszimuláció szerepel amiben a nyomkövető feromont szimuláljuk, mivel a hangyák ilyen feromonokat hagynak maguk mögött amit a többi hangya követhet.
+        </para>
+        <para>A kód futtatákor a main-ben több paramétert adunk meg parancssori argumentunként. Ezekkel állítjuk be a szimuláció méretét, a hangyák számát, hány hangya fér egy mezőben stb.</para>
+        <para>
+        	A hangyákat egy külön osztállyal kezeljük amiket az ant.h headerben tárolunk. A hangyáknak három adata van. Ebből kettő az hogy milyen ponton van (magasság/szélesség) és a harmadik pedig az hogy melyik irányba fog menni, ezt egy egyszerű random számmal döntjük.
+        </para>
+        <para>Az program két gomb lenyomást is tud kezelni a "keyPressEvent" függvénnyel. Eza két gomb a Q és a P. Ezekkel léphetünk ki szabályosan vagy állíthatjuk le a programot.
+        <programlisting language="c"><![CDATA[void keyPressEvent ( QKeyEvent *event )
+    {
+
+        if ( event->key() == Qt::Key_P ) {
+            antThread->pause();
+        } else if ( event->key() == Qt::Key_Q
+                    ||  event->key() == Qt::Key_Escape ) {
+            close();
+        }
+
+    }]]></programlisting>
+	Az antwin.cpp fájlban hozzuk létre az ablakot amit mint egy két dimenziós tömbként értelmezhetünk. Ebben a fájlban lentebb pedig van a feromon rajzolása is ami a qPainter függvénnyel történik. 
+	</para>
+	<para>
+		A forrásokról egy UML osztálydiagrammot is kell készíteni, erre a Doxygen külső alkalmazást használjuk aminek egy Doxyfile nevű fájla ami mint egy Makefile-ként működik amit futtatunk a "doxygen" paranccsal és ha jó könyvtárban van a Doxyfile a forrásokkal együtt akkor elkészíti nekünk a diagrammot latex és html formában is.
+	</para>
+    </section>        
+    <section>
+        <title>Java életjáték</title>
+        <para>
+            Írd meg Java-ban a John Horton Conway-féle életjátékot, 
+            valósítsa meg a sikló-kilövőt!
+        </para>
+        <para>
+            Megoldás videó: 
+        </para>
+        <para>
+            Megoldás forrása: <link xlink:href=""></link>               
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>            
+    </section>        
+    <section>
+        <title>Qt C++ életjáték</title>
+        <para>
+            Most Qt C++-ban!
+        </para>
+        <para>
+            Megoldás videó: <link xlink:href="https://youtu.be/3IYz37ZcUak">https://youtu.be/3IYz37ZcUak</link>
+        </para>
+        <para>
+            Megoldás forrása: <link xlink:href="https://github.com/HernyakPisti/Prog1-vegso-/tree/master/conway">https://github.com/HernyakPisti/Prog1-vegso-/tree/master/conway</link>           
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+        </para>      
+        <para>
+        	Az feladat megoldásában Bátfai Norbert kódja szerepel.
+        </para>      
+        <para>Ebben a feladatban a Qt alkalmazást használjuk, ami John Horton Conway általl felfedezett "nullszemélyes" játék, az Életjáték.</para>
+        <para>A játékkban sejtek szerepelnek amik minden kör végén/ciklus végén három szabály alapján halnak meg/élik túl/születnek újjak.</para>
+        <para>Akkor hal meg egy sejt ha  ha kettőnél kevesebb (elszigetelődés), vagy háromnál több (túlnépesedés) szomszédja van.</para>
+        <para>Akkor élik túl ha, két vagy három szomszédja van.</para>
+        <para>Új sejt születik minden olyan cellában, melynek környezetében pontosan három sejt található.</para>
+        <para>A program elindításakot létrehozunk itt is egy két dimenziós tömböt aminek az értékei igazak/hamisak ezzel ábrázolva azt hogy az adott cellában van-e sejt vagy nem. Ezt a feltételt használjuk arra is hogy kiszinezzük-e a cellát</para>
+    </section>        
+    <section>
+        <title>BrainB Benchmark</title>
+        <para>
+        </para>
+        <para>
+            Megoldás videó: 
+        </para>
+        <para>
+            Megoldás forrása: <link xlink:href=""></link>               
+        </para>
+        <para>
+            Tanulságok, tapasztalatok, magyarázat...
+            Passz!
+        </para>            
+    </section>        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+</chapter>                
